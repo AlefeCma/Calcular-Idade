@@ -1,0 +1,26 @@
+header {
+    text-align: center;
+    font: normal 20px arial;
+    
+
+}
+
+body {
+    
+    text-align: center;
+    font: normal 18px arial;
+   
+  
+}
+
+section {
+    text-align: center;
+    font: normal 18px arial;
+    background-color: rgb(170, 151, 127);
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.432);
+    margin: 100px;
+    width: 10;
+    padding: 15px;
+    border-radius: 50px;
+
+}
