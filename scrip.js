@@ -20,6 +20,6 @@ function calcular() {
         }else{
             genero = 'feminiino'
         }
-        resul.innerText = `ola  sua idade calculada é de ${idade} ano  e seu sexo e ${genero}`
-        
+        resul.innerText = `  A idade calculada é de ${idade} anos e seu sexo e ${genero}`
+    }
 }
