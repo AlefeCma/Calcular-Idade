@@ -11,6 +11,7 @@ function calcular() {
         var idade = ano - Number(anoincial.value)
         var genero 
         var img = document.createElement('img')
+        var nome = document.getElementById('nomeu')
 
        
         if(fsex[0].checked){
@@ -18,6 +19,6 @@ function calcular() {
         }else{
             genero = 'feminiino'
         }
-        resul.innerText = `A idade calculada e de ${idade} anos e o sexo e ${genero}`
+        resul.innerText = `ola ${nome} sua idade calculada é de ${idade} ano  e seu sexo e ${genero}`
     }
 }
