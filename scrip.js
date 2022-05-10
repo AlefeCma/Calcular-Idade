@@ -3,7 +3,8 @@ function calcular() {
     var ano = data.getFullYear()
     var anoincial = window.document.getElementById('ano')
     var resul = window.document.getElementById('res')
-
+   
+    
     if (anoincial.value.length == 0 || anoincial.value > ano) {
         alert('informe os dados corretos')
     } else {
@@ -11,7 +12,7 @@ function calcular() {
         var idade = ano - Number(anoincial.value)
         var genero 
         var img = document.createElement('img')
-        var nome = document.getElementById('nomeu')
+      
 
        
         if(fsex[0].checked){
@@ -19,6 +20,6 @@ function calcular() {
         }else{
             genero = 'feminiino'
         }
-        resul.innerText = `ola ${nome} sua idade calculada é de ${idade} ano  e seu sexo e ${genero}`
-    }
+        resul.innerText = `ola  sua idade calculada é de ${idade} ano  e seu sexo e ${genero}`
+        
 }
